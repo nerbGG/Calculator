@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id ="calculator">
+        <div id="display">
+            <div id="first"></div>
+            <div id="second"></div>
+        </div>
+        <div id="btns-ctn">
+            <button id ="clear"class="twofr">AC</button> <!-- onclick="remove1()"-->
+            <button onclick="remove()">DEL</button>
+            <button id="div" class="operations" onclick="setOperation('div')">/</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button id="mul"class="operations" onclick="setOperation('mul')">*</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button id="add" class="operations" onclick="setOperation('add')">+</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button id="sub"class="operations" onclick="setOperation('sub')">-</button>
+            <button id="point" onclick="display('.')"><strong>.</strong></button>
+            <button onclick="display('0')">0</button>
+            <button id="equal"class="twofr" onclick="main()">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
